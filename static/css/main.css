@@ -1,0 +1,112 @@
+body, .content{
+    text-align: center;
+    font-size: 14pt;
+}
+div, th {
+    color: yellowgreen;
+    text-shadow: black 1.5px 0.5px;
+    padding: 4px;
+}
+tr, td{
+    color: black;
+    text-shadow: none;
+}
+table{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+th{
+    background-color: rgba(130, 130, 130, 0.3);
+}
+table tr:nth-child(even){
+    background-color: rgba(130, 150, 180, 0.2);
+}
+tr, input{
+    height: 30px;
+}
+input{
+    padding: 5px;
+    border: 1px dotted black;
+    border-radius: 10px;
+}
+
+.post{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 75%;
+    text-align: center;
+    font-size: 14pt;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 2px;
+}
+.post-header{
+    background-color: rgba(130, 150, 180, 0.2);
+    height: 30px;
+    border-radius: 10px 10px 0 0;
+}
+.post-title, .post-date, .post-actions {
+    display: inline;
+}
+
+.post-title{
+    color: rgba(130, 180, 120, 0.6);
+    margin-left: 5px;
+    margin-right: auto;
+    float: left;
+}
+.post-date, .post-actions{
+    margin-right: 5px;
+    margin-left: auto;
+    text-shadow: none;
+    color: cadetblue;
+    float: right;
+}
+.post-header a{
+    text-decoration: none;
+    color: cadetblue;
+}
+.post-body{
+    text-align: left;
+    padding-left: 6px;
+}
+.post-content{
+    color: blue;
+    text-shadow: none;
+    font-weight: bold;
+}
+.post-footer{
+    text-align: right;
+}
+
+.post-by, .post-author{
+    display: inline-block;    
+}
+.post-by{
+    color: lightgray;
+    text-shadow: none;
+    
+}
+.post-author{
+    color: orange;
+    text-shadow: none;
+}
+/*
+<div class="post">
+    <div class="post-header">
+        <div class="post-title">title</div>
+        <div class="post-date">03-01/2020</div>
+        <div class="post-actions">
+            <a href="" > edit </a>
+            |
+            <a href="" > delete </a>
+        </div>
+    </div>
+    <div class="post-body">
+        <div class="post-content">this is content as i typed it and i will wait for it</div>
+        <div class="post-by">By:</div>
+        <div class="post-author">my name is here</div>
+    </div>
+</div>
